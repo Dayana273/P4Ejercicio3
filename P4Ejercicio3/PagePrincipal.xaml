@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="P4Ejercicio3.PagePrincipal">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center"
+                     HorizontalOptions="Center">
+            <Label Text="Digite la informacion solicitada!"/>
+
+
+            <Entry x:Name="txtnombre" Placeholder="Ingrese su nombre" Keyboard="Text"/>
+
+            <Entry x:Name="txtApellido" Placeholder="Ingrese su Apeliido" Keyboard="Text"/>
+
+            <Entry  x:Name="txtcorreo" Placeholder="Ingrese su correo" Keyboard="Email"/>
+            
+            <Entry x:Name="txtedad" Placeholder="Ingrese su edad" Keyboard="Numeric"/>
+
+            <Entry x:Name="txtdireccion" Placeholder="Ingrese su Direccion" Keyboard="Numeric"/>
+
+
+            <Button x:Name="btSalvar" Text="Salvar" Clicked="btSalvar_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
